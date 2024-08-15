@@ -3,7 +3,7 @@ export default function Footer() {
     <footer>
       <small>&copy; 2024. Copyright by dearaujofelipe</small>
       <p>
-        Version <b>1.5</b>
+        Version <b>1</b>
       </p>
     </footer>
   );
