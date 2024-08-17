@@ -16,11 +16,11 @@ export default function ItemList({
   const [sortBy, setSortBy] = useState('default');
 
   const sortedItems = [...items].sort((a, b) => {
-    if (sortBy == 'packed') {
+    if (sortBy === 'packed') {
       return b.packed - a.packed;
     }
 
-    if (sortBy == 'unpacked') {
+    if (sortBy === 'unpacked') {
       return a.packed - b.packed;
     }
 
